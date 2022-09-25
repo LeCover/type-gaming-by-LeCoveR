@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Typing Game</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="type gaming css.css" />
+  </head>
+  <body>
+    <div id="setting" class="setting">
+      <form id="setting-form">
+        <div>
+          <select name="" id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="average">Average</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <div class="container">
+      <h2>Enter The Word</h2>
+      <h1 id="word"></h1>
+      <input type="text" id="text" placeholder="please enter the word "/>
+      <p class="time-container">Time Left : <span id="time">10second</span></p>
+      <p id="score-container" class="score-container">Score: <span id="score">0</span></p>
+      <div id="end-game-container" class="end-game-container"></div>
+    </div>
+    <script src="type gaming js.js"></script>
+  </body>
+</html>
